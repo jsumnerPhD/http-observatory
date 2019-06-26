@@ -36,6 +36,7 @@ setup(
     include_package_data=True,
     install_requires = [
         'beautifulsoup4',
+        'celery',
         'publicsuffixlist',
     ],
     scripts=['httpobs/scripts/httpobs-local-scan',
