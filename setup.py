@@ -35,7 +35,7 @@ setup(
     packages=find_packages(),
     include_package_data=True,
     install_requires = [
-        beautifulsoup4,
+        'beautifulsoup4',
     ],
     scripts=['httpobs/scripts/httpobs-local-scan',
              'httpobs/scripts/httpobs-mass-scan',
