@@ -38,6 +38,7 @@ setup(
         'beautifulsoup4',
         'celery',
         'publicsuffixlist',
+        'requests',
     ],
     scripts=['httpobs/scripts/httpobs-local-scan',
              'httpobs/scripts/httpobs-mass-scan',
